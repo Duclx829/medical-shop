@@ -1,0 +1,110 @@
+@import "./base.css";
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  --price-clr: #eb4e24;
+  scroll-behavior: smooth;
+}
+.outline-0{
+  outline: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  *{
+  font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  *{
+  font-size: 10px;
+  }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+/*
+.container {
+  width: 1200px;
+  margin: 0 auto;
+} */
+
+/*
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.col-10,
+.col-lg-10 {
+  width: 83.333%;
+  max-width: 83.333%;
+}
+
+.col-9,
+.col-lg-9 {
+  width: 75%;
+  max-width: 75%;
+}
+
+.col-8,
+.col-lg-8 {
+  width: 66.667%;
+  max-width: 66.667%;
+}
+
+.col-4,
+.col-lg-4 {
+  width: 33.333%;
+  max-width: 33.333%;
+}
+
+.col-3,
+.col-lg-3 {
+  width: 25%;
+  max-width: 25%;
+}
+
+.col-2,
+.col-lg-2 {
+  width: 16.667%;
+  max-width: 16.667%;
+} */
+
+
+/* ul{
+  padding: 0;
+} */
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
